@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 129.0, 640.0, 480.0 ],
+		"rect" : [ 84.0, 129.0, 912.0, 484.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1717,6 +1717,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"outputmode" : 1,
 					"parameter_enable" : 1,
 					"patching_rect" : [ 811.5, 2787.5, 15.0, 15.0 ],
 					"presentation" : 1,
@@ -1751,6 +1752,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"outputmode" : 1,
 					"parameter_enable" : 1,
 					"patching_rect" : [ 811.5, 2742.5, 15.0, 15.0 ],
 					"presentation" : 1,
@@ -1785,6 +1787,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"outputmode" : 1,
 					"parameter_enable" : 1,
 					"patching_rect" : [ 811.5, 2696.923165023326874, 15.0, 15.0 ],
 					"presentation" : 1,
@@ -1820,6 +1823,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"outputmode" : 1,
 					"parameter_enable" : 1,
 					"patching_rect" : [ 811.5, 2650.5, 15.0, 15.0 ],
 					"presentation" : 1,
@@ -2002,18 +2006,6 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 358.269242227077484, 2744.423165023326874, 65.0, 22.0 ],
 					"text" : "mc.dup~ 4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-296",
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 117.0, 29.0, 5.0, 100.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 786.0, 4.0, 5.0, 158.0 ]
 				}
 
 			}
@@ -2798,6 +2790,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"outputmode" : 1,
 					"parameter_enable" : 1,
 					"patching_rect" : [ 439.5, 1825.0, 15.0, 15.0 ],
 					"presentation" : 1,
@@ -2831,6 +2824,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"outputmode" : 1,
 					"parameter_enable" : 1,
 					"patching_rect" : [ 340.5, 1825.0, 15.0, 15.0 ],
 					"presentation" : 1,
@@ -2864,6 +2858,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"outputmode" : 1,
 					"parameter_enable" : 1,
 					"patching_rect" : [ 215.0, 1825.0, 15.0, 15.0 ],
 					"presentation" : 1,
@@ -2898,6 +2893,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
+					"outputmode" : 1,
 					"parameter_enable" : 1,
 					"patching_rect" : [ 115.5, 1825.0, 15.0, 15.0 ],
 					"presentation" : 1,
