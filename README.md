@@ -1,6 +1,8 @@
 # Pierre Rhinocéros' Synth
 A 4-op synthesizer (à la Ableton's Operator).
 
+![Screenshot](screenshot.png)
+
 ## Installation
 The simplest way to install this Max for Live device is to download the latest
 [release](https://github.com/neta-elad/pr.synth/releases).
