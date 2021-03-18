@@ -2,7 +2,7 @@
 	"name" : "pr.synth",
 	"version" : 1,
 	"creationdate" : 3696069481,
-	"modificationdate" : 3696069589,
+	"modificationdate" : 3698904955,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,

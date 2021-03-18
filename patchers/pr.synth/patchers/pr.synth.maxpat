@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -50,7 +50,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -284,7 +284,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -826,11 +826,11 @@
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 226.0, 3127.0, 329.0, 22.0 ],
-					"text" : "mc.live.param~ @chans 4 @values gain1 gain2 gain3 gain4"
+					"patching_rect" : [ 226.0, 3127.0, 126.0, 22.0 ],
+					"text" : "mc.live.param~ 4 gain"
 				}
 
 			}
@@ -1011,7 +1011,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 10,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1420,11 +1420,11 @@
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 414.0, 2370.0, 366.0, 22.0 ],
-					"text" : "mc.live.param~ @chans 4 @values attack1 attack2 attack3 attack4"
+					"patching_rect" : [ 414.0, 2370.0, 136.0, 22.0 ],
+					"text" : "mc.live.param~ 4 attack"
 				}
 
 			}
@@ -1432,11 +1432,11 @@
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 600.5, 2421.0, 366.0, 22.0 ],
-					"text" : "mc.live.param~ @chans 4 @values decay1 decay2 decay3 decay4"
+					"patching_rect" : [ 600.5, 2421.0, 136.0, 22.0 ],
+					"text" : "mc.live.param~ 4 decay"
 				}
 
 			}
@@ -1444,11 +1444,11 @@
 				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 713.0, 2457.0, 390.0, 22.0 ],
-					"text" : "mc.live.param~ @chans 4 @values sustain1 sustain2 sustain3 sustain4"
+					"patching_rect" : [ 713.0, 2457.0, 142.0, 22.0 ],
+					"text" : "mc.live.param~ 4 sustain"
 				}
 
 			}
@@ -1456,11 +1456,11 @@
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 811.5, 2526.0, 395.0, 22.0 ],
-					"text" : "mc.live.param~ @chans 4 @values release1 release2 release3 release4"
+					"patching_rect" : [ 811.5, 2526.0, 143.0, 22.0 ],
+					"text" : "mc.live.param~ 4 release"
 				}
 
 			}
@@ -1468,11 +1468,11 @@
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 101.5, 1872.0, 313.0, 22.0 ],
-					"text" : "mc.live.param~ @chans 4 @values osc1 osc2 osc3 osc4"
+					"patching_rect" : [ 101.5, 1872.0, 122.0, 22.0 ],
+					"text" : "mc.live.param~ 4 osc"
 				}
 
 			}
@@ -1480,11 +1480,11 @@
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 98.0, 4058.0, 329.0, 22.0 ],
-					"text" : "mc.live.param~ @chans 4 @values gain1 gain2 gain3 gain4"
+					"patching_rect" : [ 98.0, 4058.0, 126.0, 22.0 ],
+					"text" : "mc.live.param~ 4 gain"
 				}
 
 			}
@@ -1492,11 +1492,11 @@
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 67.5, 1182.0, 369.0, 22.0 ],
-					"text" : "mc.live.param~ @chans 4 @values shape1 shape2 shape3 shape4"
+					"patching_rect" : [ 67.5, 1182.0, 136.0, 22.0 ],
+					"text" : "mc.live.param~ 4 shape"
 				}
 
 			}
@@ -1504,11 +1504,11 @@
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 108.0, 973.0, 369.0, 22.0 ],
-					"text" : "mc.live.param~ @chans 4 @values partial1 partial2 partial3 partial4"
+					"patching_rect" : [ 108.0, 973.0, 136.0, 22.0 ],
+					"text" : "mc.live.param~ 4 partial"
 				}
 
 			}
@@ -1516,11 +1516,11 @@
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 214.0, 611.0, 385.0, 22.0 ],
-					"text" : "mc.live.param~ @chans 4 @values detune1 detune2 detune3 detune4"
+					"patching_rect" : [ 214.0, 611.0, 140.0, 22.0 ],
+					"text" : "mc.live.param~ 4 detune"
 				}
 
 			}
@@ -4633,6 +4633,27 @@
 				"name" : "pr.synth.radiogroup.js",
 				"bootpath" : "~/Documents/Max 8/Packages/pr.synth/patchers/pr.synth/code",
 				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mc.live.param~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/mc.live.param/patchers",
+				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/mc.live.param/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mc.live.param.poly.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/mc.live.param/patchers",
+				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/mc.live.param/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mc.live.param.js",
+				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/mc.live.param/code",
+				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/mc.live.param/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
