@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 2,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 129.0, 912.0, 484.0 ],
+		"rect" : [ 233.0, 268.0, 853.0, 460.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -111,8 +111,8 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Glide time between legato notes",
-					"annotation_name" : "Glide",
+					"annotation" : "Maximum bend in cents",
+					"annotation_name" : "Bend",
 					"appearance" : 1,
 					"id" : "obj-63",
 					"maxclass" : "live.dial",
@@ -122,11 +122,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 157.0, 534.0, 25.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 123.0, 48.5, 36.0 ],
+					"presentation_rect" : [ 10.0, 123.0, 49.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_annotation_name" : "Glide",
-							"parameter_info" : "Glide time between legato notes",
+							"parameter_annotation_name" : "Bend",
+							"parameter_info" : "Maximum bend in cents",
 							"parameter_initial" : [ 50 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
@@ -168,13 +168,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 343.0, 60.0, 1063.0, 806.0 ],
+						"rect" : [ 233.0, 268.0, 853.0, 460.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -402,13 +402,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 84.0, 129.0, 564.0, 555.0 ],
+						"rect" : [ 233.0, 268.0, 853.0, 460.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1129,7 +1129,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 2,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4800,17 +4800,10 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "pr.synth.radiogroup.js",
-				"bootpath" : "~/Documents/Max 8/Packages/pr.synth/patchers/pr.synth/code",
-				"patcherrelativepath" : "../code",
+				"name" : "mc.live.param.js",
+				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/mc.live.param/code",
+				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/mc.live.param/code",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mc.live.param~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/mc.live.param/patchers",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/mc.live.param/patchers",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -4821,16 +4814,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mc.live.param.js",
-				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/mc.live.param/code",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/mc.live.param/code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pr.align-present.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.align-present/patchers",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/pr.align-present/patchers",
+				"name" : "mc.live.param~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/mc.live.param/patchers",
+				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/mc.live.param/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4842,9 +4828,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pr.live.colors.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.live.colors/patchers",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/pr.live.colors/patchers",
+				"name" : "pr.align-present.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.align-present/patchers",
+				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/pr.align-present/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4852,6 +4838,20 @@
 				"name" : "pr.live.colors.js",
 				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.live.colors/code",
 				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/pr.live.colors/code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pr.live.colors.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.live.colors/patchers",
+				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/pr.live.colors/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pr.synth.radiogroup.js",
+				"bootpath" : "~/Documents/Max 8/Packages/pr.synth/patchers/pr.synth/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
