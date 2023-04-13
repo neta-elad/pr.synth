@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -49,8 +49,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -513,8 +513,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -744,29 +744,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 279.0, 82.0, 75.0, 22.0 ],
 					"text" : "pr.live.colors"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-70",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 82.0, 91.0, 22.0 ],
-					"text" : "pr.align-present"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 157.0, 36.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1135,8 +1112,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4586,13 +4563,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-70", 0 ],
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-44", 0 ]
 				}
@@ -4809,55 +4779,41 @@
 		"dependency_cache" : [ 			{
 				"name" : "mc.live.param.js",
 				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/mc.live.param/code",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/mc.live.param/code",
+				"patcherrelativepath" : "../../../Packages/pr.dev-tools/patchers/mc.live.param/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.live.param.poly.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/mc.live.param/patchers",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/mc.live.param/patchers",
+				"patcherrelativepath" : "../../../Packages/pr.dev-tools/patchers/mc.live.param/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.live.param~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/mc.live.param/patchers",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/mc.live.param/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pr.align-present.js",
-				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/javascript",
-				"patcherrelativepath" : "../../../../pr.dev-tools/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pr.align-present.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.align-present/patchers",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/pr.align-present/patchers",
+				"patcherrelativepath" : "../../../Packages/pr.dev-tools/patchers/mc.live.param/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pr.live.colors.js",
 				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.live.colors/code",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/pr.live.colors/code",
+				"patcherrelativepath" : "../../../Packages/pr.dev-tools/patchers/pr.live.colors/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pr.live.colors.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.live.colors/patchers",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/pr.live.colors/patchers",
+				"patcherrelativepath" : "../../../Packages/pr.dev-tools/patchers/pr.live.colors/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pr.synth.radiogroup.js",
-				"bootpath" : "~/Documents/Max 8/Packages/pr.synth/patchers/pr.synth/code",
+				"bootpath" : "~/Documents/Max 8/Max for Live Devices/pr.synth/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
